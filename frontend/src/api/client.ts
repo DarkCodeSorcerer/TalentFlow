@@ -40,13 +40,13 @@ api.interceptors.response.use(
         `   bun run src/index.ts\n\n` +
         `2️⃣  Check .env Files:\n` +
         `   backend/.env should have: PORT=5000\n` +
-        `   frontend/.env should have: VITE_API_URL=https://ats-w53t.onrender.com\n\n` +
+        `   frontend/.env should have: VITE_API_URL=https://ats-2-248d.onrender.com\n\n` +
         `3️⃣  Check MongoDB:\n` +
         `   Make sure MongoDB is running\n` +
         `   Windows: net start MongoDB\n` +
         `   Mac/Linux: brew services start mongodb-community\n\n` +
         `4️⃣  Test Backend:\n` +
-        `   Open browser: https://ats-w53t.onrender.com/health\n` +
+        `   Open browser: https://ats-2-248d.onrender.com/health\n` +
         `   Should show: {"status":"ok"}\n\n` +
         `5️⃣  Restart Frontend:\n` +
         `   Stop frontend (Ctrl+C) and restart: bun run dev\n\n` +

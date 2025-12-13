@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = import.meta.env.VITE_API_URL || "https://ats-2-248d.onrender.com";
 
 export async function checkBackendConnection(): Promise<{ connected: boolean; message: string }> {
   try {

@@ -82,12 +82,12 @@ export const ApplicationList: React.FC = () => {
         }
         // Don't show error for network errors if backend is clearly not running
         if (error.isNetworkError || error.code === "ERR_NETWORK" || error.code === "ECONNREFUSED") {
-          const apiUrl = import.meta.env.VITE_API_URL || "https://ats-w53t.onrender.com";
+          const apiUrl = import.meta.env.VITE_API_URL || "https://ats-2-248d.onrender.com";
           toast.error(
             `❌ Cannot connect to backend at ${apiUrl}\n\n` +
             `🔧 Please:\n` +
             `1. Start backend: cd backend && bun run src/index.ts\n` +
-            `2. Check http://localhost:5000/health in browser\n` +
+            `2. Check https://ats-2-248d.onrender.com/health in browser\n` +
             `3. See CHECK_SETUP.md for help`,
             { duration: 8000 }
           );
