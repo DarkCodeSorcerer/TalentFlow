@@ -509,7 +509,7 @@ After setup, verify:
 
 ## 📄 License
 
-This project is for educational/demonstration purposes.
+This project is for demonstration purposes.
 
 ## 👥 Contributing
 
@@ -521,6 +521,3 @@ This is a demonstration project. For production use, consider:
 - Performance testing
 - Documentation for API consumers
 
----
-
-**Note:** This README consolidates all setup information, including details from the removed `SETUP.md` file and information about the `START_BACKEND.bat` and `START_FRONTEND.bat` helper scripts.
