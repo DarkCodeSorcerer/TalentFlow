@@ -10,7 +10,7 @@ export const LoginPage: React.FC = () => {
             TalentFlow · Secure access
           </span>
           <div className="space-y-3">
-            <h1 className="text-4xl font-bold text-slate-900 leading-tight">Welcome back to your ATS workspace</h1>
+            <h1 className="text-4xl font-bold text-slate-900 leading-tight">Welcome back to your TalentFlow workspace</h1>
             <p className="text-slate-600 text-lg">Track applications, keep notes, and shortlist roles with smarter matching.</p>
           </div>
           <ul className="space-y-2 text-slate-700">
