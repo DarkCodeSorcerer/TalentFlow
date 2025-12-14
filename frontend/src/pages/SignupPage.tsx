@@ -7,7 +7,7 @@ export const SignupPage: React.FC = () => {
       <div className="max-w-6xl mx-auto w-full px-6 py-10 grid md:grid-cols-2 gap-10 items-center">
         <div className="space-y-6 order-last md:order-first">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold">
-            ATS · Get started
+            TalentFlow · Get started
           </span>
           <div className="space-y-3">
             <h1 className="text-4xl font-bold text-slate-900 leading-tight">Join and manage your job hunt in one place</h1>

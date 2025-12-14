@@ -7,7 +7,7 @@ export const LoginPage: React.FC = () => {
       <div className="max-w-6xl mx-auto w-full px-6 py-10 grid md:grid-cols-2 gap-10 items-center">
         <div className="space-y-6">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-sm font-semibold">
-            ATS · Secure access
+            TalentFlow · Secure access
           </span>
           <div className="space-y-3">
             <h1 className="text-4xl font-bold text-slate-900 leading-tight">Welcome back to your ATS workspace</h1>
