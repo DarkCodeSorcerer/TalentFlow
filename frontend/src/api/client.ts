@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Use environment variable for API URL (set in Vercel for production)
 // Falls back to localhost for development
-const API_URL = import.meta.env.VITE_API_URL || "https://ats-w53t.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL || "https://ats-2-248d.onrender.com";
 
 // Log the API URL being used (for debugging)
 if (import.meta.env.DEV) {
@@ -31,7 +31,7 @@ api.interceptors.response.use(
   (error) => {
     // Handle network errors
     if (error.code === "ERR_NETWORK" || error.message === "Network Error" || error.code === "ECONNREFUSED") {
-      const currentApiUrl = import.meta.env.VITE_API_URL || "https://ats-w53t.onrender.com";
+      const currentApiUrl = import.meta.env.VITE_API_URL || "https://ats-2-248d.onrender.com";
       error.message = `❌ Cannot connect to backend at ${currentApiUrl}\n\n` +
         `🔧 Quick Fix Steps:\n\n` +
         `1️⃣  Start Backend Server:\n` +
