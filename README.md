@@ -1,6 +1,8 @@
 # TalentFlow - Intelligent Applicant Tracking System
 
-**TalentFlow** is a full-stack Applicant Tracking System (ATS) built with Bun, TypeScript, MongoDB, and React. Designed specifically for recruiters who sort through hundreds of applications, TalentFlow streamlines the hiring process with intelligent resume matching, comprehensive application tracking, and powerful filtering capabilities.
+**TalentFlow** is a full-stack Applicant Tracking System (ATS) built with Bun, TypeScript, MongoDB, and React. 
+Designed specifically for recruiters who sort through hundreds of applications, TalentFlow streamlines the hiring 
+process with intelligent resume matching, comprehensive application tracking, and powerful filtering capabilities.
 
 ## 🌐 Live Demo
 
@@ -205,7 +207,7 @@ After setup, verify:
   - Bulk operations (delete, status update)
   - CSV export functionality
 - **Resume Matching System**:
-  - Single or bulk resume upload
+  - Single or bulk resume upload (supports PDF, DOCX, TXT, images)
   - **Saved Job Descriptions**: Save and reuse multiple job descriptions
   - Automatic resume parsing to extract:
     - Skills and technical keywords
@@ -314,7 +316,7 @@ After setup, verify:
 ### Algorithm & Matching Logic
 
 **Keyword-Based Matching**
-- **Decision:** Simple keyword matching instead of ML/NLP models
+- **Decision:** Simple keyword matching algorithm
 - **Reasoning:**
   - Fast and predictable
   - Easy to understand and debug
@@ -524,8 +526,9 @@ After setup, verify:
 
 ## 🔮 Future Enhancements
 
-- [ ] **PDF Scanning & Result Display**: Enhanced PDF processing with comprehensive text extraction and visual result presentation. PDF files will be scanned and analyzed with detailed matching results displayed in an intuitive interface.
 - [ ] Advanced ML-based resume matching
+- [ ] **PDF Scanning & Result Display**: Enhanced PDF processing with comprehensive text extraction and visual result presentation. PDF files will be scanned and analyzed with detailed matching results displayed in an intuitive interface.
+- [ ] Advanced resume matching algorithms
 - [ ] Email integration for application tracking
 - [ ] Calendar integration for interviews
 - [ ] Multi-user collaboration features
